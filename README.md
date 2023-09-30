@@ -1,6 +1,6 @@
-# ansible-vm-lab
+# vm-snmp-lab
 
-A repo to get up and running with Ansible.
+Setup and Configure SNMP
 
 - [Getting Started](#getting-started)
   - [Create `.env` file](#create-env-file)
