@@ -5,6 +5,7 @@ usermod --append --groups wheel stack
 # set password
 usermod -p stack stack
 
+# Add user to sudoers
 echo -e "stack\tALL=(ALL)\tNOPASSWD: ALL" > /etc/sudoers.d/stack
 
 # cat /etc/suders.d/020_my_sudo
