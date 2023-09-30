@@ -46,8 +46,11 @@ Download the role and collection dependencies:
 
 ```bash
 cd roles
-ansible-galaxy install --roles-path . -r requirements.yml
+ansible-galaxy role install -r requirements.yml
 ansible-galaxy collection install -r requirements.yml
+
+# if you want to install locally
+# ansible-galaxy role install --roles-path . -r requirements.yml
 ```
 
 ### Testing inventory with ad-hoc commands
@@ -62,7 +65,7 @@ To execute the playbook to configure the VM execute the following:
 
 ```bash
 # run the playbook against a specific vm
-ansible-playbook playbook.yml --limit vagrant01
+ansible-playbook playbook.yml # --limit vagrant01
 ```
 
 ## Sample directory layout
@@ -91,6 +94,12 @@ tasks/                    # task files included from playbooks
 
 ## Resources
 
+- <https://access.redhat.com/solutions/17815>
+- <https://access.redhat.com/solutions/341073>
+- <https://access.redhat.com/solutions/30119>
+- <https://access.redhat.com/solutions/1130063>
+- <https://access.redhat.com/solutions/3848721>
+- <https://access.redhat.com/solutions/273513>
 - [Ansible User Guide](https://docs.ansible.com/ansible/2.8/user_guide/index.html)
 - [Introduction to Ansible for Linux System Roles](https://linux-system-roles.github.io/documentation/intro-to-ansible-for-system-roles.html)
 - [linux-system-roles](https://github.com/linux-system-roles)
