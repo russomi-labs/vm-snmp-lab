@@ -94,6 +94,7 @@ tasks/                    # task files included from playbooks
 
 ## Resources
 
+- <https://github.com/sbaerlocher/ansible.snmp>
 - <https://access.redhat.com/solutions/17815>
 - <https://access.redhat.com/solutions/341073>
 - <https://access.redhat.com/solutions/30119>
