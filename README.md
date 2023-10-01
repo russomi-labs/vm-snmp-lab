@@ -56,7 +56,7 @@ ansible-galaxy collection install -r requirements.yml
 ### Testing inventory with ad-hoc commands
 
 ```bash
-ansible test -a "date"
+ansible vagrant -a "date"
 ```
 
 ### Running the Ansible Playbook
@@ -101,6 +101,8 @@ tasks/                    # task files included from playbooks
 - <https://access.redhat.com/solutions/1130063>
 - <https://access.redhat.com/solutions/3848721>
 - <https://access.redhat.com/solutions/273513>
+- <https://www.ansible.com/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection>
+- <https://galaxy.ansible.com/ui/repo/published/fedora/linux_system_roles/>
 - [Ansible User Guide](https://docs.ansible.com/ansible/2.8/user_guide/index.html)
 - [Introduction to Ansible for Linux System Roles](https://linux-system-roles.github.io/documentation/intro-to-ansible-for-system-roles.html)
 - [linux-system-roles](https://github.com/linux-system-roles)
