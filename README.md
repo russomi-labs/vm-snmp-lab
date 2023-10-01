@@ -103,6 +103,7 @@ tasks/                    # task files included from playbooks
 - <https://access.redhat.com/solutions/273513>
 - <https://www.ansible.com/blog/announcing-the-red-hat-enterprise-linux-certified-ansible-collection>
 - <https://galaxy.ansible.com/ui/repo/published/fedora/linux_system_roles/>
+- <https://github.com/linux-system-roles/>
 - [Ansible User Guide](https://docs.ansible.com/ansible/2.8/user_guide/index.html)
 - [Introduction to Ansible for Linux System Roles](https://linux-system-roles.github.io/documentation/intro-to-ansible-for-system-roles.html)
 - [linux-system-roles](https://github.com/linux-system-roles)
